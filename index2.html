@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <a href="default.com">  <!--source-->
+        <img src="smiley.gif" alt="HTML tutorial"  style="width:42px;height:20px"/>  <!--custom gif name-->
+    </a>
+<div>
+    <a href="https://aka.ms/visual-studio-code">Visual Studio Code</a> <!--link za download VSC-->
+    <a href="https://www.codepen.io">CodePen</a> <!--link za download CP-->
+</div>
+<div>
+    <a href="https://www.w3schools.com/html/html_images.asp">W3S slike
+        <img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
+    </a>
+</div>
+<div>
+    <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain"> <!--ovaj barem izbacuje sliku-->
+</div>
+<iframe src="index5.html" height="200" width="300"></iframe> 
+<!-- drugi primjer: <iframe src="https://www.dailymail.co.uk/home/index.html" height="200" width="300"></iframe> -->
+<div>
+<label for="marka">Izaberi marku: </label>
+<select name="marka"> <!--drop-down-->
+  	<option  value="asus">asus</option>
+    <option  selected value="lenovo">lenovo</option> <!--postavljena kao odabrana-->
+    <option  value="LG" disabled>LG</option> <!--ne moze da se odabere-->
+    <option  value="razer">razer</option>
+</select>
+</div>
+<div>
+    <button type="button" onclick="alert('Hello World!')">Click me!</button> <!--nakon interakcije izbacuje (poruku)-->
+</div>
+<div>
+    <!-- video i audio ne mogu bez odredjenih plug-inova ! -->
+<video width="320" height="240" controls autoplay>
+    <source src="movie.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+     Your browser does not support the video tag.
+</video>
+<audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+     <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+</body>    
+</html>
